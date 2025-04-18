@@ -1,5 +1,5 @@
 # SnapGPT: ChatGPT PDF Exporter
-![icon16](https://github.com/user-attachments/assets/ddcd166d-8257-4477-9484-f78c8d03fab9)
+<img src="https://github.com/user-attachments/assets/ddcd166d-8257-4477-9484-f78c8d03fab9" alt="icon16" width="30"/>
 
 A Chrome extension that allows you to export your ChatGPT conversations directly to PDF files.
 
