@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ChatGPT Exporter</title>
+    <style>
+      body {
+        width: 300px;
+        padding: 15px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #10a37f;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s;
+      }
+      button:hover {
+        background-color: #0e906f;
+      }
+      button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+      }
+      #status {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 14px;
+        min-height: 20px;
+      }
+      .title {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+      .note {
+        font-size: 11px;
+        color: #666;
+        margin-top: 12px;
+        line-height: 1.4;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">ChatGPT PDF Exporter</div>
+    <button id="exportButton">Export to PDF</button>
+    <div id="status"></div>
+    <div class="note">
+      Click the button above to save your conversation as a PDF file.
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html> 
